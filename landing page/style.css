@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&family=Vina+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@200&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #070707 16.62%, #172396 85.61%);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    }
+
+ .cabecalho-imagem {
+
+    height: 72px;
+    align-items: center;
+    margin-right: 600px;
+ }   
+
+ .cabecalho-menu {
+    display: flex;
+    gap: 32px;  
+
+ }
+
+ .cabecalho-menu-item {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color:aliceblue;
+    font-weight: 400;
+    font-size: 25px;
+ }
+
+ .conteudo-menu-item:hover{
+   background-color: rgb(36, 228, 228);
+ }
+   
+
+ .conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid aliceblue;
+
+ }
+ 
+ .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-around;
+
+ }
+ .conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color:#fafcfc;
+ }
+
+ .conteudo-principal-escrito-titulo {
+   
+ 
+    font-family: 'Vina Sans', sans-serif;
+    font-weight: 400;
+    font-size: 100px;
+    font-style: italic  ;
+    color:#fafcfc;
+    padding-top: 60px;
+        
+    }
+
+    .conteudo-principal-escrito-titulo {
+      background: linear-gradient(to right, #001aff, #fbfbff);
+      -webkit-background-clip: text;
+      color: transparent;
+  }
+  
+
+  
+     
+ .conteudo-principal-escrito-botao{
+   padding: 0.6rem 2rem;
+   margin: 3rem;
+   text-align: center;
+   color: #fff;
+   font-size: 1.5rem;
+   background-color: #1d4ed8;
+   width: 180px;
+   height: 60px;
+   border: none;
+   box-shadow: 3px 5px 3px rgba(255, 253, 253, 0.25);
+   font-family: 'Saira Extra Condensed', sans-serif;
+   border-radius: 200px;
+   
+ }
+ 
+ .conteudo-principal-escrito-botao {
+  animation: efeito-texto 2s infinite;
+}
+
+@keyframes efeito-texto {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+
+
+ .conteudo-principal-escrito-botao:hover{
+   background-color: azure;
+ }
+
+ .conteudo-principal-imagem{
+   margin-top: 158 px;
+   height: 330px;
+   border-radius: 200px;
+   
+ }
+
+ .conteudo-secundario{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 24px;
+   margin-top: 48px;
+
+ }
+
+ .conteudo-secundario-titulo{
+   
+   font-family: 'Vina Sans', sans-serif;
+   border-radius: 200px;
+   font-weight: 400;
+   font-size: 50px;
+   color: aliceblue;
+ }
+ 
+ .conteudo-secundario-paragrafo{
+   color:#fafcfc;
+   font-family: 'Saira Extra Condensed', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+ }
+ .rodape{
+   padding: 32px;
+   border-top: 0.4px solid aliceblue;
+ }
+
+ .rodape-imagem{
+   height: 100px;
+   display: block;
+   margin: 0 auto;
+ }
